@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carta{
+    border: solid 2px black;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: rgb(189, 189, 189);
+}
+
+.carta h2{
+   margin-top: 20px;
+   margin-bottom: 20px; 
+}
+
+.carta label{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.carta input{
+    width: 80%;
+    margin-bottom: 10px;
+    border: solid 1px black;
+}
+
+.carta select{
+    width: 80%;
+    border: solid 1px black;
+    margin-bottom: 10px;
+}
+
+
+
+
+.carta button{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100px;
+    border: solid 2px black;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: 0.7s;
+}
+
+.carta button:hover{
+    background-color: rgb(187, 185, 185);
+}
